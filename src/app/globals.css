@@ -16,7 +16,7 @@
   }
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,10 +24,18 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .link-text-nav {
+    @apply hover:line-through decoration-8 decoration-black/50 dark:decoration-light/50
+  }
+
+  .link-text-li {
+    @apply hover:line-through decoration-8 decoration-light-blue/50
   }
 }
