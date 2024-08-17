@@ -32,10 +32,11 @@
   }
 
   .link-text-nav {
-    @apply hover:line-through decoration-8 decoration-black/50 dark:decoration-light/50
+    @apply hover:line-through hover:decoration-8 hover:decoration-black/50 dark:decoration-white/70
+    /* @apply hover:underline hover:decoration-wavy hover:decoration-black dark:decoration-white */
   }
 
   .link-text-li {
-    @apply hover:line-through decoration-8 decoration-light-blue/50
+    @apply hover:line-through hover:decoration-8 hover:decoration-black/50 hover:dark:decoration-white/70
   }
 }

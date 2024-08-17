@@ -48,11 +48,11 @@ export default function Page() {
           Softchoice ServiceNow Enhancements
         </h2>
         <p className='text-sm mb-2'>
-          <Link href="/documents/Platform Release 1.20 Stories notes.pdf">
+          <Link href="/documents/sc/Platform Release 1.20 Stories notes.pdf">
             <span className='link-text-li'>June</span>
           </Link>
           <span> and </span>
-          <Link href="/documents/Platform Release 1.21 Stories notes.pdf">
+          <Link href="/documents/sc/Platform Release 1.21 Stories notes.pdf">
             <span className='link-text-li'>July</span>
           </Link>
           <span> </span>completed enhancements for Softchoice ServiceNow,
@@ -83,7 +83,7 @@ export default function Page() {
           Networking with coworkers
         </h2>
         <p className='text-sm mb-2'>
-          <Link href="/documents/SoftchoiceNetworking.txt">
+          <Link href="/documents/sc/SoftchoiceNetworking.txt">
             <span className='link-text-li'>Notes</span>
           </Link>
           <span> </span>
@@ -141,7 +141,7 @@ export default function Page() {
           Our Director of Services Improvement took the initiative to creating 
           the action plan and assigned individual members of the team to 
           completing the documentation needed for the upgrade. I, having worked
-          on serveral modules for Softchoice's ServiceNow, was responsible for
+          on serveral modules for Softchoice&apos;s ServiceNow, was responsible for
           identifying risks and test cases of said modules that require 
           attention pre- and post-upgrade.
 
@@ -185,7 +185,7 @@ export default function Page() {
           Working on incidents and defects
         </h2>
         <p className='text-sm mb-2'>
-          <Link href="/documents/Platform Release 1.22 Stories notes.pdf">
+          <Link href="/documents/sc/Platform Release 1.22 Stories notes.pdf">
             <span className='link-text-li'>August</span> 
           </Link>
           <span> </span>
@@ -200,19 +200,19 @@ export default function Page() {
           As opposed to enhancements, incidents and defects generally require 
           more technical ability and understanding of the system, as often the 
           issues reported occur under some specific conditions which are usually 
-          considered "edge cases" and are harder to identify. The sample artifact 
+          considered &quot;edge cases&quot; and are harder to identify. The sample artifact 
           is a list of incidents and/or defects assigned to myself and a general 
           description of the issues.
         </p>
         <p>
           To work on this task, I had to utilize the resources from ServiceNow 
-          as well as our company's documentation to understand the customizations 
+          as well as our company&apos;s documentation to understand the customizations 
           that had been deployed and what could potentially cause the issues in 
           question. Communications with the reporter was definitely important in 
           pinpointing the exact issue and identifying the pattern or circumstances 
           under which the error occurred. More often than not, the issue was not 
           documented anywhere, including in ServiceNow official support platform 
-          and Softchoice's past documentation, and support cases had to be opened 
+          and Softchoice&apos;s past documentation, and support cases had to be opened 
           with the support engineers from ServiceNow. Cases like these require 
           constant communication back and forth between my team and the support 
           engineer from ServiceNow, as well as working closely with the engineer 
@@ -236,7 +236,7 @@ export default function Page() {
         </p>
 
         <h2 className='my-6 text-sm tracking-tighter text-center'>
-          <Link href="/documents/UpdatedResume2023.pdf">
+          <Link href="/documents/sc/UpdatedResume2023.pdf">
             <span className='link-text-li'>updated resume</span>
           </Link>
         </h2>
