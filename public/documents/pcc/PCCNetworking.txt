@@ -1,0 +1,18 @@
+1. What is your career journey?
+2. What is your focus in the team?
+3. Your most memorable project
+4. Challenges in career or current position
+5. Skills or experiences recommended
+
+Handi Gao - Platform Enablement
+Platform Enablement team (ENBL) is responsible for onboarding new services or migration to new platforms/infrastructure for company's development teams. The general workflow is that first development teams will reach out to ENBL when the need for new services/infrastructure arises for a grooming session, then the requesting team will provide background and details about their project for ENBL to give counselation and determine scope of project. ENBL will go ahead and figure out the steps, a schedule according to the given deadline and assign tasks to members.
+
+A memorable project for Handi is the machine learning initiative, which is the first ever within the company. The project provides an Azure ML workspace to train and host models and for critical services to consume the AI models through proxy, which is of top priority. The sheer size of the project, the technical details that have not been explored before and the security issues in implementation make it a challenging but memorable project. 
+
+Some challenges may come up for projects that do not follow the golden pattern. One example is the MNS (message notification services) project. Before, ENBL was responsible only for core services (not core HR and SLI) but as the team was restructured, ENBL had to take over the other two as well. MNS devs are in SLI, which has a different workflow than what ENBL is used to, which makes it difficult to create a working pattern suited for both teams.
+
+Some skills that are necessary to have to succeed in infrastructure is Terraform and networking.
+
+Handi worked as a data engineer intern for IBM but did not enjoy it as much and switched to DevOps. Handi recommended doing a job shadowing at PCC to have a feel for data jobs that involve more of statistics side of my degree.
+
+Joel Damata - Platform Engineering
