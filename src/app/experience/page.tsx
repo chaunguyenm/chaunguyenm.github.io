@@ -13,23 +13,28 @@ const experience = {
     name: 'servicenow co-op @ softchoice',
     type: 'work',
   },
+  'ta': {
+    href: null,
+    name: 'teaching assistant @ department of computer and mathematical sciences',
+    type: 'school',
+  },
   'asr': {
-    href: `${prefix}/asr`,
+    href: null,
     name: 'international student ambassador @ admissions & student recruitment',
     type: 'school',
   },
   'amacss': {
-    href: `${prefix}/amacss`,
+    href: null,
     name: 'course representative @ association of mathematical and computer science students',
     type: 'school',
   },
   'shrl': {
-    href: `${prefix}/shrl`,
+    href: null,
     name: 'residence advisor @ student housing & residence life',
     type: 'school',
   },
   'lib': {
-    href: `${prefix}/lib`,
+    href: null,
     name: 'makerspace student assistant @ utsc library',
     type: 'school',
   },
@@ -43,6 +48,7 @@ export default function Page() {
         <ul>
           {Object.entries(experience).filter(([_, { type }]) => type === 'work')
             .map(([path, { href, name }]) => {
+              if (href == null) return <p>{name}</p>
               return (
                 <li key={path}>
                   <Link href={href}>
@@ -58,6 +64,7 @@ export default function Page() {
         <ul>
           {Object.entries(experience).filter(([_, { type }]) => type === 'school')
             .map(([path, { href, name }]) => {
+              if (href == null) return <p>{name}</p>
               return (
                 <li key={path}>
                   <Link href={href}>
