@@ -53,7 +53,12 @@ export default function Page() {
         <ul>
           {Object.entries(experience).filter(([_, { type }]) => type === 'work')
             .map(([path, { href, name }]) => {
-              if (href == null) return <p>{name}</p>
+              if (href == null)
+                return (
+                  <li key={path}>
+                    <p>{name}</p>
+                  </li>
+                )
               return (
                 <li key={path}>
                   <Link href={href}>
@@ -69,7 +74,12 @@ export default function Page() {
         <ul>
           {Object.entries(experience).filter(([_, { type }]) => type === 'school')
             .map(([path, { href, name }]) => {
-              if (href == null) return <p>{name}</p>
+              if (href == null)
+                return (
+                  <li key={path}>
+                    <p>{name}</p>
+                  </li>
+                )
               return (
                 <li key={path}>
                   <Link href={href}>
