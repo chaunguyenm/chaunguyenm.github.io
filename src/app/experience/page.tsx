@@ -3,6 +3,11 @@ import Link from 'next/link';
 const prefix = '/experience';
 
 const experience = {
+  'ts': {
+    href: `${prefix}/ts`,
+    name: `quality assurance automation engineer co-op @ thescore`,
+    type: `work`,
+  },
   'pcc': {
     href: `${prefix}/pcc`,
     name: 'software engineer co-op @ pointclickcare',
